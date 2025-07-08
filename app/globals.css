@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.glass-panel {
+  background: rgba(66, 66, 66, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.1),
+              0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+  .rotated-svg {
+    transform: rotate(90deg) !important;
+    transform-origin: center center;
+    width: 100vh !important;
+    height: 100vw !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50vw;
+    margin-left: -50vh;
+  }
+
+  .responsive-logo {
+    transform: rotate(90deg) translateY(-30vw) !important;
+    transform-origin: center center;
+  }
+  .responsive-logo:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+}
+
+.responsive-logo:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
