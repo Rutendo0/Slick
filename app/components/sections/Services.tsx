@@ -54,7 +54,7 @@ const CreativeCTA = () => {
                 </div>
 
                 <p className="text-2xl text-gray-600 mb-12 leading-relaxed font-light max-w-2xl">
-                  Join over <span className="font-bold text-red-600">2,500+</span> satisfied customers who trusted us
+                  Join over <span className="font-bold text-red-600">100+</span> satisfied customers who trusted us
                   with their vehicle imports. Get your free consultation and personalized quote today.
                 </p>
 
@@ -125,7 +125,7 @@ const CreativeCTA = () => {
                       <div className="p-2 bg-white rounded-xl shadow-sm">
                         <Phone className="w-5 h-5 text-red-600" />
                       </div>
-                      <p className="font-black text-2xl text-gray-800 tracking-wide">+1 (555) 123-4567</p>
+                      <p className="font-black text-2xl text-gray-800 tracking-wide">+263 784 455 661</p>
                     </div>
                     <p className="text-sm text-gray-500">Available 24/7 for your convenience</p>
                   </div>
@@ -196,7 +196,7 @@ const VehicleGallery = () => {
       name: "Toyota Land Cruiser",
       type: "SUV",
       year: "2023",
-      image: "/placeholder.svg?height=400&width=400",
+      image: "/image8.jpg",
       badge: "Popular",
       description: "Legendary off-road capability meets modern luxury",
     },
@@ -205,16 +205,16 @@ const VehicleGallery = () => {
       name: "Nissan GT-R",
       type: "Sports Car",
       year: "2024",
-      image: "/placeholder.svg?height=400&width=400",
+      image: "/image6.jpg",
       badge: "Premium",
       description: "Pure performance engineering from Japan",
     },
     {
       id: 3,
-      name: "Honda Civic Type R",
+      name: "Toyota Hilux",
       type: "Hatchback",
       year: "2023",
-      image: "/placeholder.svg?height=400&width=400",
+      image: "/image2.jpg",
       badge: "Hot",
       description: "Track-bred performance for the street",
     },
@@ -223,7 +223,7 @@ const VehicleGallery = () => {
       name: "Mazda MX-5 Miata",
       type: "Convertible",
       year: "2024",
-      image: "/placeholder.svg?height=400&width=400",
+      image: "/image3.jpg",
       badge: "Classic",
       description: "The pure joy of driving, redefined",
     },
@@ -232,7 +232,7 @@ const VehicleGallery = () => {
       name: "Subaru WRX STI",
       type: "Sedan",
       year: "2023",
-      image: "/placeholder.svg?height=400&width=400",
+      image: "/image5.jpg",
       badge: "Rally",
       description: "Rally-bred performance meets daily usability",
     },
@@ -241,7 +241,7 @@ const VehicleGallery = () => {
       name: "Lexus LC 500",
       type: "Coupe",
       year: "2024",
-      image: "/placeholder.svg?height=400&width=400",
+      image: "/image6.jpg",
       badge: "Luxury",
       description: "Artistry in motion with uncompromising luxury",
     },

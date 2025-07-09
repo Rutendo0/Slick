@@ -71,7 +71,7 @@ const Footer: React.FC = () => (
                 <Phone className="w-4 h-4 text-red-500" />
               </div>
               <div>
-                <p className="text-white font-semibold">+263 77 000 0000</p>
+                <p className="text-white font-semibold">+263 77 364 6014</p>
                 <p className="text-gray-400 text-sm">Available 24/7</p>
               </div>
             </div>
@@ -80,7 +80,7 @@ const Footer: React.FC = () => (
                 <Mail className="w-4 h-4 text-red-500" />
               </div>
               <div>
-                <p className="text-white font-semibold break-all">info@slicklogistics.com</p>
+                <p className="text-white font-semibold break-all">info@slicklogistics.co.zw</p>
                 <p className="text-gray-400 text-sm">Response within 24hrs</p>
               </div>
             </div>
@@ -89,7 +89,7 @@ const Footer: React.FC = () => (
                 <MapPin className="w-4 h-4 text-red-500" />
               </div>
               <div>
-                <p className="text-white font-semibold">123 Placeholder Ave</p>
+                <p className="text-white font-semibold">130 Samora Machel Ave</p>
                 <p className="text-gray-400 text-sm">Harare, Zimbabwe</p>
               </div>
             </div>

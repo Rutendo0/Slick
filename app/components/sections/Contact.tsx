@@ -47,7 +47,7 @@ const GoogleMapsEmbed: React.FC = () => {
             <MapPin className="w-4 h-4 text-red-600" />
           </div>
           <div className="flex-1">
-            <p className="font-bold text-gray-900 text-sm mb-1">123 Placeholder Ave</p>
+            <p className="font-bold text-gray-900 text-sm mb-1">130 Smora Machel Ave</p>
             <p className="text-gray-600 text-sm mb-2">Harare, Zimbabwe</p>
             <div className="flex flex-wrap gap-3 text-xs text-gray-500">
               <span>• Parking available</span>
@@ -70,7 +70,7 @@ const Contact: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Placeholder: send to info@slicklogistics.com
+    // Placeholder: send to info@slicklogistics.co.zw
     setSubmitted(true)
   }
 
@@ -203,7 +203,7 @@ const Contact: React.FC = () => {
                     </div>
                     <div className="flex-1">
                       <p className="font-bold text-gray-900 text-xs uppercase tracking-wide mb-1">Call Us</p>
-                      <p className="text-sm font-black text-gray-900 mb-1">+263 77 000 0000</p>
+                      <p className="text-sm font-black text-gray-900 mb-1">+263 77 364 6014</p>
                       <p className="text-gray-600 text-xs font-medium">Available 24/7</p>
                     </div>
                   </div>
@@ -217,7 +217,7 @@ const Contact: React.FC = () => {
                     </div>
                     <div className="flex-1">
                       <p className="font-bold text-gray-900 text-xs uppercase tracking-wide mb-1">Email Us</p>
-                      <p className="text-sm font-black text-gray-900 mb-1 break-all">info@slicklogistics.com</p>
+                      <p className="text-sm font-black text-gray-900 mb-1 break-all">info@slicklogistics.co.zw</p>
                       <p className="text-gray-600 text-xs font-medium">Response within 24hrs</p>
                     </div>
                   </div>
@@ -231,7 +231,7 @@ const Contact: React.FC = () => {
                     </div>
                     <div className="flex-1">
                       <p className="font-bold text-gray-900 text-xs uppercase tracking-wide mb-1">Visit Us</p>
-                      <p className="text-sm font-black text-gray-900 mb-1">123 Placeholder Ave</p>
+                      <p className="text-sm font-black text-gray-900 mb-1">130 Samora Machel Ave</p>
                       <p className="text-gray-600 text-xs font-medium">Harare, Zimbabwe</p>
                     </div>
                   </div>

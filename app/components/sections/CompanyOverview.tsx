@@ -13,7 +13,7 @@ const CompanyOverview: React.FC = () => (
             {/* Main image container */}
             <div className="bg-white rounded-2xl p-4 shadow-lg border border-gray-100">
               <img
-                src="/about-placeholder.jpg"
+                src="/image4.jpg"
                 alt="About Slick Logistics"
                 className="w-full h-96 object-cover rounded-xl"
               />
@@ -22,7 +22,7 @@ const CompanyOverview: React.FC = () => (
             {/* Floating stats card */}
             <div className="absolute -bottom-8 -right-8 bg-white rounded-xl shadow-lg border border-gray-100 p-6">
               <div className="text-center">
-                <div className="text-3xl font-black text-red-600 mb-1">2,500+</div>
+                <div className="text-3xl font-black text-red-600 mb-1">100+</div>
                 <div className="text-gray-600 font-semibold text-sm">Happy Customers</div>
               </div>
             </div>
@@ -84,7 +84,7 @@ const CompanyOverview: React.FC = () => (
                       <Award className="w-6 h-6 text-red-600" />
                     </div>
                   </div>
-                  <div className="text-3xl font-black text-gray-900 mb-2">15+</div>
+                  <div className="text-3xl font-black text-gray-900 mb-2">5+</div>
                   <div className="text-gray-600 font-medium text-sm">Years Experience</div>
                 </div>
                 <div>
@@ -93,7 +93,7 @@ const CompanyOverview: React.FC = () => (
                       <Globe className="w-6 h-6 text-red-600" />
                     </div>
                   </div>
-                  <div className="text-3xl font-black text-gray-900 mb-2">50+</div>
+                  <div className="text-3xl font-black text-gray-900 mb-2">5+</div>
                   <div className="text-gray-600 font-medium text-sm">Countries Served</div>
                 </div>
                 <div>
