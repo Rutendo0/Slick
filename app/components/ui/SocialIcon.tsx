@@ -6,7 +6,8 @@ interface SocialIconProps {
   className?: string;
 }
 
-const icons: Record<string, JSX.Element> = {
+// Changed JSX.Element to React.ReactNode here:
+const icons: Record<string, React.ReactNode> = {
   whatsapp: (
     <svg fill="currentColor" viewBox="0 0 24 24" className="w-6 h-6">
       <path d="M12 2C6.477 2 2 6.477 2 12c0 1.93.547 3.73 1.497 5.26L2 22l4.89-1.47A9.953 9.953 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a7.952 7.952 0 01-4.29-1.26l-.3-.18-2.9.87.87-2.83-.19-.3A7.952 7.952 0 014 12c0-4.418 3.582-8 8-8s8 3.582 8 8-3.582 8-8 8zm4.13-5.07c-.2-.1-1.18-.58-1.36-.65-.18-.07-.31-.1-.44.1-.13.2-.5.65-.62.78-.12.13-.23.15-.43.05-.2-.1-.84-.31-1.6-.99-.59-.53-.99-1.18-1.11-1.38-.12-.2-.01-.3.09-.4.09-.09.2-.23.3-.34.1-.11.13-.19.2-.32.07-.13.03-.25-.01-.35-.05-.1-.44-1.07-.6-1.47-.16-.39-.32-.34-.44-.35-.11-.01-.24-.01-.37-.01-.13 0-.34.05-.52.23-.18.18-.68.66-.68 1.6 0 .94.7 1.85.8 1.98.1.13 1.38 2.12 3.36 2.89.47.16.84.25 1.13.32.47.1.9.09 1.24.05.38-.05 1.18-.48 1.35-.94.17-.46.17-.85.12-.94-.05-.09-.18-.13-.38-.23z" />
@@ -30,11 +31,15 @@ const icons: Record<string, JSX.Element> = {
 };
 
 const SocialIcon: React.FC<SocialIconProps> = ({ type, href, className = "" }) => (
-  <a href={href} target="_blank" rel="noopener noreferrer" className={`inline-flex items-center justify-center rounded-full p-2 hover:bg-red-100 transition ${className}`}
+  <a
+    href={href}
+    target="_blank"
+    rel="noopener noreferrer"
+    className={`inline-flex items-center justify-center rounded-full p-2 hover:bg-red-100 transition ${className}`}
     aria-label={type}
   >
     {icons[type]}
   </a>
 );
 
-export default SocialIcon; 
+export default SocialIcon;
